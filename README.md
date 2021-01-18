@@ -30,3 +30,11 @@
    * script中 build一般为生产，start一般为开发
 
 ----------------------------------------------------------------
+### v2
+1. 用webpack加载sass   使用webpack sass loader 
+   * dart-sass
+2. 同理可以同webpack加载 less 与 stylus
+3. 使用webpack引入图片    使用file-loader 可以加载任意文件   转换为路径
+4. !关于懒加载 import() 面试点    promise掌握
+5. 使用webpack一键将网页部署至github  或  gitee
+   * 一般地，将网页部署至github 可以发布dist目录 配合github pages；也可以新建gh-pages分支存放dist目录中的内容最为发布项。
