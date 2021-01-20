@@ -39,3 +39,5 @@
 5. 使用webpack一键将网页部署至github  或  gitee
    * 一般地，将网页部署至github 可以发布dist目录 配合github pages；也可以新建gh-pages分支存放dist目录中的内容最为发布项。
    * 再第一次手动建立gh-pages后即可使用.sh脚本 一键部署 `sh deploy.sh`
+   * 推送到gitee  `git remote add gitee git@gitee.com:user_name/xxx.git` 
+      `git push gitee local_branch:master `
